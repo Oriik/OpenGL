@@ -27,6 +27,12 @@
     <ClInclude Include="stl.h">
       <Filter>Fichiers sources</Filter>
     </ClInclude>
+    <ClInclude Include="OpenGL.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyply.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -44,5 +50,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="shader.frag" />
+    <None Include="shader.vert" />
+    <None Include="shaderTriangle.frag" />
+    <None Include="shaderTriangle.vert" />
   </ItemGroup>
 </Project>

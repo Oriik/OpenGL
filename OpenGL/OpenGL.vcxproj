@@ -148,9 +148,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="glad\include\glad\glad.h" />
+    <ClInclude Include="OpenGL.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="stl.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="tinyply.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad\src\glad.c" />
@@ -165,6 +167,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="shader.frag" />
+    <None Include="shader.vert" />
+    <None Include="shaderTriangle.frag" />
+    <None Include="shaderTriangle.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
